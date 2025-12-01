@@ -1,0 +1,22 @@
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+#task-list li.completed .task-title {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+#task-list li.completed {
+  background-color: #f8f9fa;
+}
+
+.badge-status {
+  font-size: 0.7rem;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
